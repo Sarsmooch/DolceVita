@@ -32,8 +32,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Utilizando os seguintes frameworks:
 
-- **[Bootstrap 5.3]**(https://getbootstrap.com/docs/5.3/)
-- **[Laravel 10]**(https://laravel.com/docs/10.x)
+- [**Bootstrap 5.3**](https://getbootstrap.com/docs/5.3/)
+- [**Laravel 10**](https://laravel.com/docs/10.x)
 
 
 ## Licença
