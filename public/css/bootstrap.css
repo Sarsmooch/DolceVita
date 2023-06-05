@@ -6,6 +6,7 @@ $theme-colors: (
     "primary": $primary,
     "danger": $danger
 );
+
 */
 :root {
   --bs-blue: #0d6efd;
@@ -109,7 +110,7 @@ hr {
   opacity: 0.25;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .section .section-header .section-title, .h2, h1, .h1 {
+h6, .h6, h5, .h5, h4, .h4, h3, .section .products .products-title, .h3, h2, .section .section-header .section-title, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -134,11 +135,11 @@ h2, .section .section-header .section-title, .h2 {
   }
 }
 
-h3, .h3 {
+h3, .section .products .products-title, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
-  h3, .h3 {
+  h3, .section .products .products-title, .h3 {
     font-size: 1.75rem;
   }
 }
@@ -857,12 +858,12 @@ progress {
   --bs-gutter-y: 0.5rem;
 }
 
-.g-3,
+.g-3, .section .products,
 .gx-3 {
   --bs-gutter-x: 1rem;
 }
 
-.g-3,
+.g-3, .section .products,
 .gy-3 {
   --bs-gutter-y: 1rem;
 }
@@ -7893,7 +7894,7 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
-.text-center {
+.text-center, .section .products {
   text-align: center !important;
 }
 
@@ -10761,22 +10762,24 @@ textarea.form-control-lg {
 .section .section-header .section-description {
   font-family: "Merienda", cursive;
 }
-
+.section .products .products-title {
+  margin-top: 0.5rem;
+}
 @media (min-width: 992px) {
-  .contact-form {
+  .section .contact {
     margin: 0 8rem;
   }
 }
 @media (min-width: 1200px) {
-  .contact-form {
+  .section .contact {
     margin: 0 14rem;
   }
 }
-.contact-form .form-control {
+.section .contact .form-control {
   border-radius: 1.2rem;
   margin-bottom: 1rem;
 }
-.contact-form textarea {
+.section .contact textarea {
   height: 150px;
   resize: none;
 }

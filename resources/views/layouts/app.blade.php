@@ -26,7 +26,7 @@
 
 <body class="bg-light">
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar bg-light navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="/docs/5.1/assets/brand/dolcevita-logo.svg" alt="" width="90" height="80">
@@ -61,8 +61,8 @@
             <x-slot:title>Contate-nos</x-slot:title>
             <x-slot:description>Entre em contato conosco preenchendo o formulário abaixo</x-slot:description>
             <x-slot:content>
-                <div class="contact-form">
-                    <form id="contactForm" method="GET" action="{{ route('postContato') }}">
+                <div class="contact">
+                    <form id="contactForm" action="{{ route('postContato') }}">
                         @csrf
                         <div class="row">
                             <div class="col-md-6 d-flex align-content-between flex-wrap">

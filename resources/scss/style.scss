@@ -18,8 +18,8 @@ $theme-colors: (
     "primary": $primary,
     "danger": $danger
 );
-*/
 
+*/
 
 // scss-docs-start import-stack
 // Configuration
@@ -67,8 +67,8 @@ $theme-colors: (
 
 // Utilities
 @import "../../node_modules/bootstrap/scss/utilities/api";
-// scss-docs-end import-stack
 
+// scss-docs-end import-stack
 .navbar {
     .navbar-toggler {
         border: none !important;
@@ -114,29 +114,37 @@ $theme-colors: (
         }
 
         .section-description {
-            //@extend .lead;
             font-family: $font-family-titles-and-descriptions;
         }
     }
-}
 
-.contact-form {
-    @include media-breakpoint-up(lg) {
-        margin: 0 8rem;
+    .products {
+        @extend .text-center, .g-3;
+
+        .products-title {
+            @extend h3;
+            margin-top: 0.5rem;
+        }
     }
 
-    @include media-breakpoint-up(xl) {
-        margin: 0 14rem;
-    }
+    .contact {
+        @include media-breakpoint-up(lg) {
+            margin: 0 8rem;
+        }
 
-    .form-control {
-        border-radius: 1.2rem;
-        margin-bottom: 1rem;
-    }
+        @include media-breakpoint-up(xl) {
+            margin: 0 14rem;
+        }
 
-    textarea {
-        height: 150px;
-        resize: none;
+        .form-control {
+            border-radius: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        textarea {
+            height: 150px;
+            resize: none;
+        }
     }
 }
 

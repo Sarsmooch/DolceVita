@@ -55,7 +55,7 @@ class StoreContactMessageRequest extends FormRequest
     {
         return [
             'required' => 'O preenchimento do campo ":attribute" é obrigatório.',
-            'between' => 'O campo ":attribute" deve conter entre :min e :max caracteres.',
+            'between' => 'O campo ":attribute" deve conter obrigatoriamente entre :min e :max caracteres.',
             'max' => 'O campo ":attribute" deve conter no máximo :max caracteres.',
             'email' => 'O campo ":attribute" deve conter um email válido.'
         ];

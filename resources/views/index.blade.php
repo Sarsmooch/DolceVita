@@ -45,37 +45,37 @@
         <x-slot:title>Produtos</x-slot:title>
         <x-slot:description>Conheça abaixo nossas deliciosas criações</x-slot:description>
         <x-slot:content>
-            <div class="row text-center g-3">
+            <div class="products row">
                 <div class="col-lg-3 col-md-6">
                     <svg class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder </title>
+                        <title>Bolos</title>
                         <rect width="100%" height="600px" fill="#A23049"> </rect>
                     </svg>
-                    <h2 class="fw-normal">Bolos</h2>
+                    <h4 class="products-title">Bolos</h4>
                     <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column. </p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <svg class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder </title>
+                        <title>Tortas</title>
                         <rect width="100%" height="600px" fill="#A23049"> </rect>
                     </svg>
-                    <h2 class="fw-normal">Doces</h2>
+                    <h4 class="products-title">Doces</h4>
                     <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column. </p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <svg class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder </title>
+                        <title>Doces</title>
                         <rect width="100%" height="600px" fill="#A23049"> </rect>
                     </svg>
-                    <h2 class="fw-normal">Tortas</h2>
+                    <h4 class="products-title">Tortas</h4>
                     <p>And lastly this, the third column of representative placeholder content. </p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <svg class="bd-placeholder-img rounded-circle" role="img" aria-label="Placeholder" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder </title>
+                        <title>Salgados</title>
                         <rect width="100%" height="600px" fill="#A23049"> </rect>
                     </svg>
-                    <h2 class="fw-normal">Salgados</h2>
+                    <h4 class="products-title">Salgados</h4>
                     <p>And lastly this, the third column of representative placeholder content. </p>
                 </div>
             </div>
