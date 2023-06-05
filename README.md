@@ -20,6 +20,22 @@ Este é o repositório do projeto Dolce Vita, uma confeitaria fictícia desenvol
 - **Blog:** Apresenta um blog com artigos relacionados à confeitaria, receitas, dicas e curiosidades. (Em desenvolvimento)
 - **Administração de Conteúdo:** Permite que os administradores do site gerenciem o conteúdo, como adicionar, editar e excluir produtos, postagens do blog, imagens em geral, etc. (Em desenvolvimento)
 
+## Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **PHP**
+- **MySQL**
+
+Utilizando os seguintes frameworks:
+
+- **[Bootstrap 5.3]**(https://getbootstrap.com/docs/5.3/)
+- **[Laravel 10]**(https://laravel.com/docs/10.x)
+
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
