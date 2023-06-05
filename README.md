@@ -6,6 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
 # Dolce Vita - Confeitaria Fictícia
 
 Este é o repositório do projeto Dolce Vita, uma confeitaria fictícia desenvolvida como parte do curso de Desenvolvimento de Sistemas. O objetivo do projeto é criar um site para a confeitaria, apresentando sua marca, produtos e permitindo o contato com os clientes.
