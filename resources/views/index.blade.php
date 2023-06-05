@@ -19,7 +19,7 @@
     <x-section>
         <x-slot:id>about</x-slot:id>
         <x-slot:title>Sobre nós</x-slot:title>
-        <x-slot:description>Conheça nossa marca.</x-slot:description>
+        <x-slot:description>Conheça nossa marca</x-slot:description>
         <x-slot:content>
             <div class="row">
                 <div class="col-md-7">
@@ -43,7 +43,7 @@
     <x-section>
         <x-slot:id>products</x-slot:id>
         <x-slot:title>Produtos</x-slot:title>
-        <x-slot:description>Conheça abaixo nossas maravilhosas criações</x-slot:description>
+        <x-slot:description>Conheça abaixo nossas deliciosas criações</x-slot:description>
         <x-slot:content>
             <div class="row text-center g-3">
                 <div class="col-lg-3 col-md-6">
@@ -78,31 +78,6 @@
                     <h2 class="fw-normal">Salgados</h2>
                     <p>And lastly this, the third column of representative placeholder content. </p>
                 </div>
-            </div>
-        </x-slot:content>
-    </x-section>
-
-    <x-section>
-        <x-slot:id>contact</x-slot:id>
-        <x-slot:title>Contate-nos</x-slot:title>
-        <x-slot:description>Entre em contato conosco preenchendo o formulário abaixo.</x-slot:description>
-        <x-slot:content>
-            <div class="contact-form">
-                <form>
-                    <div class="row">
-                        <div class="col-md-6 d-flex align-content-between flex-wrap">
-                            <input class="form-control" name="contactName" type="text" value="" placeholder="Seu nome" />
-                            <input class="form-control" name="contactEmail" type="text" value="" placeholder="Seu email" />
-                            <input class="form-control" name="contactPhone" type="text" value="" placeholder="Seu telefone" />
-                        </div>
-                        <div class="col-md-6">
-                            <textarea class="form-control" name="contactMessage" placeholder="Sua mensagem"></textarea>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <button class="btn btn-primary align-center" type="submit">Enviar mensagem</button>
-                    </div>
-                </form>
             </div>
         </x-slot:content>
     </x-section>

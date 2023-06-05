@@ -11,6 +11,7 @@ $section-bg-2: #fff5e7;
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 $font-family-sans-serif: 'Inter', sans-serif;
 $font-family-titles-and-descriptions: 'Merienda', cursive;
+$btn-border-radius: 1.2rem;
 
 /*
 $theme-colors: (
@@ -68,6 +69,28 @@ $theme-colors: (
 @import "../../node_modules/bootstrap/scss/utilities/api";
 // scss-docs-end import-stack
 
+.navbar {
+    .navbar-toggler {
+        border: none !important;
+    }
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    background: #900020;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+        font-family: $font-family-titles-and-descriptions;
+        color: #fff1e1;
+        font-size: calc($font-size-base * 3.5);
+        text-shadow: gray;
+    }
+}
 
 .section {
     &:nth-child(even) {
@@ -86,7 +109,7 @@ $theme-colors: (
         text-align: center;
 
         .section-title {
-            @extend h1;
+            @extend h2;
             font-family: $font-family-titles-and-descriptions;
         }
 
@@ -107,7 +130,7 @@ $theme-colors: (
     }
 
     .form-control {
-        border-radius: 1rem;
+        border-radius: 1.2rem;
         margin-bottom: 1rem;
     }
 

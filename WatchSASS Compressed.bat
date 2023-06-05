@@ -1,1 +1,1 @@
-cmd /k sass --watch --style=compressed public/scss/style.scss public/css/bootstrap.min.css
+cmd /k sass --watch --style=compressed resources/scss/style.scss:public/css/bootstrap.min.css

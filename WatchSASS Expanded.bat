@@ -1,1 +1,1 @@
-cmd /k sass --watch public/scss/style.scss public/css/bootstrap.css
+cmd /k sass --watch resources/scss/style.scss:public/css/bootstrap.css
