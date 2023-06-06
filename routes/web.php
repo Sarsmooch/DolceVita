@@ -33,9 +33,8 @@ Route::get('/teste', function(){
     ]);
 });
  
-Route::controller(ContactMessageController::class)->group(function () {
-    Route::get('/contato', 'index');
-    Route::post('/contato', 'store')->name('postContato');
-    Route::get('/contato/id', 'show');
-});
+Route::get('/contato', [ContactMessageController::class, 'index']);
+Route::post('/contato', [ContactMessageController::class, 'store'])->name('postContato');
+Route::get('/contato/{id}', [ContactMessageController::class, 'show']);
+
 

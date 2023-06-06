@@ -37,7 +37,7 @@ class ContactMessageController extends Controller
 
         return response()->json([
             'toast' => view('components.toast', [
-                'title' => 'Tudo certo!',
+                'type' => 'success',
                 'message' => 'Recebemos a sua mensagem e em breve retornaremos.'
             ])->render(),
         ], 200);   

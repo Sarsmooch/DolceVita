@@ -85,7 +85,6 @@
                             toastElement.innerHTML = response.toast;
                             contactSection.appendChild(toastElement);
                         }
-
                     } else {
                         // Caso o erro recebido não seja 422, exibe o erro no console com a mensagem "Erro: " seguida do status de erro.
                         console.error('Erro: ' + error.status);
@@ -97,23 +96,25 @@
                     // Guarda todos os elementos com a classe .toast criados anteriormente.
                     const toastElements = document.querySelectorAll('.toast');
 
+                    // Inicia uma variável para armazenar a quantidade atual de Toast Elements no DOM.
+                    let openToastCount = toastElements.length;
+
                     toastElements.forEach(function (element) {
                         // Para cada elemento toast, cria uma instância de bootstrap.Toast
                         var toast = new bootstrap.Toast(element);
 
                         // Então chama o método show() para exibi-los na tela.
                         toast.show();
-                    });
 
-                    // Inicia uma variável para armazenar a quantidade atual de Toast Elements no DOM.
-                    let openToastCount = toastElements.length;
-
-                    toastElements.forEach(function (element) {
                         // Para cada elemento toast, é adicionado um eventListener para o evento 'hidden.bs.toast', que é disparado sempre que o toast é ocultado (por tempo na tela, ou através do close).
                         element.addEventListener('hidden.bs.toast', () => {
                             // Cada vez que isso acontece, decrementa 1 da variável openToastCount.
                             openToastCount--;
-                            if (openToastCount == 0) {
+
+                            // Remove o elemento do DOM.
+                            element.remove();
+
+                            if (openToastCount === 0) {
                                 // Se openToastCount for igual a 0, o elemento com o ID toastArea é removido do documento.
                                 document.getElementById('toastArea').remove();
                             }

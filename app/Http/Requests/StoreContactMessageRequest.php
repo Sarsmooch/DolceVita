@@ -65,7 +65,8 @@ class StoreContactMessageRequest extends FormRequest
     {
         $response = response()->json([
             'toast' => view('components.toast', [
-                'validationErrors' => $validator->errors()->messages()
+                'type' => 'error',
+                'messages' => $validator->errors()->messages()
             ])->render(),
         ], 422);
     
