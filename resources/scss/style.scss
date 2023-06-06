@@ -4,9 +4,9 @@ $info: #0E6C8F;
 $success: #4B8F07;
 $warning: #8F870E;
 $danger: #DB0030;
-$light: #fff1e1;
-$section-bg-1: #fff1e2;
-$section-bg-2: #fff5e7;
+$light: #f9f9f9;
+$section-bg-1: #f5f5f5;
+$section-bg-2: #f9f9f9;
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 $font-family-sans-serif: 'Inter', sans-serif;
@@ -145,6 +145,15 @@ $theme-colors: (
             height: 150px;
             resize: none;
         }
+    }
+}
+
+.footer {
+    @extend .m-3;
+
+    .copyright {
+        @extend .text-center, .m-0;
+
     }
 }
 
